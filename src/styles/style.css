@@ -1,0 +1,6 @@
+@import "./var.css";
+@import "./menuBar.css";
+
+/* Agrega los css de cada pagina */
+@import "./index.css";
+@import "./contacto.css";
