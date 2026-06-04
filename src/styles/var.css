@@ -18,6 +18,25 @@
     src: url('/src/assets/fonts/Le-Jour-Script.otf') format('opentype');
 }
 
+@font-face {
+    font-family: Rio Grande;
+    src: url('/src/assets/fonts/RioGrande.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Old Town Regular;
+    src: url('/src/assets/fonts/Old-Town-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Bleeding Cowboys;
+    src: url('/src/assets/fonts/bleeding_cowboys.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Rio Oro Bold';
+    src: url('/src/assets/fonts/Rio-Oro-Bold.otf') format('truetype');
+}
 
 
 :root {
@@ -32,6 +51,7 @@
     --secundary-text-color: #757575;
     --divider-color: #BDBDBD;
 
+    --actionBar-color: rgba(0, 0, 0, 0.5);;
 
     /*SIZES*/
     --text: 25px;
@@ -44,4 +64,8 @@
     --prototype: 'Prototype', sans-serif;
     --sensations: 'Sensations', sans-serif;
     --le_your_script: 'Le Jour Script', sans-serif;
+    --rio_grande: 'Rio Grande', sans-serif;
+    --old_town: 'Old Town Regular', sans-serif;
+    --bleeding_cowboys: 'Bleeding Cowboys', sans-serif;
+    --rio_oro_bold: 'Rio Oro Bold', sans-serif;
 }

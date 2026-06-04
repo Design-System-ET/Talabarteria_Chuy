@@ -178,6 +178,16 @@ Cada página HTML viene pre-configurada con:
 | `npm run dev`     | Inicia servidor de desarrollo con hot reload |
 | `npm run build`   | Genera build de producción en `dist/`        |
 | `npm run preview` | Previsualiza el build de producción          |
+| `npm run deploy`  | Publica el sitio en GitHub Pages desde `dist/` |
+
+### Despliegue en GitHub Pages
+Para publicar el sitio en GitHub Pages con este proyecto, ejecuta:
+
+```bash
+npm run deploy
+```
+
+Esto construye el proyecto y luego publica la carpeta `dist/` en la rama `gh-pages`.
 
 ## 📋 Requisitos
 

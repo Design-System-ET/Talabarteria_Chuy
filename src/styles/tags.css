@@ -1,0 +1,76 @@
+/*-------------------------------definiciones generales---------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    height: 100%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*a{
+    color: var(--azul);
+    text-decoration: none;
+}*/
+
+a:hover{
+    color: var(--primary-color)
+}
+/*--------------------------------------------------------------------------------------*/
+
+
+
+
+
+/*-------------------------------comienzo a estilizar-----------------------------------*/
+header{
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+
+    background-image: url(/src/assets/Talabarteria.png);
+}
+
+main{
+    background-color: #fbfbfb;
+    height: 100vh;
+}
+
+footer{
+    background-color: black;
+    height: 30vh;
+    padding-bottom: 1%;
+}
+
+nav{
+    position: fixed;
+    width: 95%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+section {
+    /*height: 100vh;*/
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+hr{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

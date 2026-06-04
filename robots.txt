@@ -1,5 +1,7 @@
 User-agent: *
 Disallow: /privado/
 Allow: /
+Allow: /contacto.html
+Allow: /store.html
 
 Sitemap: https://www.example.com/sitemap.xml

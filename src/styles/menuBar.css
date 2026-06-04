@@ -1,4 +1,179 @@
-.menu-bar {
-    background-color: #333;
-    overflow: hidden;
+.items{
+    margin: 0;
+    color: var(--base-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--prototype);
+    font-size: 15px;
+}
+
+.items:hover {
+    color: var(--primary-color);
+}
+
+nav {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.75rem 1rem;
+}
+
+.logo {
+    color: var(--primary-color);
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.logo a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.ico {
+    width: 48px;
+    max-width: 100%;
+    margin-right: 0;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    justify-content: flex-end;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.menu li:hover {
+    background-color: var(--light-primary-color);
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.menu li {
+    margin: 0 10px;
+    position: relative;
+}
+
+.menu a {
+    color: var(--secundary-text-color);
+    text-decoration: none;
+    padding: 8px 16px;
+    display: block;
+    transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+.menu a:hover,
+.menu a:focus-visible {
+    color: var(--primary-color);
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    margin-left: 0px; /*posicion cuando se despliega el submenu*/
+    margin-top: 3px;
+}
+
+.submenu li:hover {
+    background-color: blueviolet;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/*.submenu li a {
+    color: #fff;
+    padding: 1px 1px;
+}*/
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 28px;
+    color: var(--primary-color);
+    cursor: pointer;
+    padding: 0.5rem 0.75rem;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+.menu-icon:hover,
+.menu-icon:focus-visible {
+    background-color: rgba(255, 255, 255, 0.08);
+    border-color: var(--primary-color);
+}
+
+#menu-toggle:checked + .menu-icon {
+    transform: rotate(90deg);
+    background-color: rgba(255, 255, 255, 0.12);
+}
+
+#menu-toggle {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        display: none; /* Escondemos el menú por defecto */
+        flex-direction: column;
+        width: calc(100% - 40px);
+        background-color: var(--actionBar-color);
+        position: absolute; /* Para que se superponga */
+        top: 70px; /* Ajustar según el alto del nav */
+        right: 20px;
+        left: 20px;
+        z-index: 1000;
+        align-items: flex-start;
+        border-radius: 12px;
+        padding: 0.75rem 0;
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+    }
+
+    .menu li {
+        display: flex;
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+
+    .menu i {
+        display: none; /*accedo a la clase .menu y al elemento i*/
+    }
+
+    .menu-icon {
+        display: block; /* Mostramos el ícono del menú */
+        margin-right: 0;
+    }
+
+    #menu-toggle:checked ~ .menu {
+        display: flex; /* Mostramos el menú cuando se chequea */
+    }
+
+    .submenu {
+        position: static;
+        top: auto;
+        margin-left: 0;
+    }
 }
