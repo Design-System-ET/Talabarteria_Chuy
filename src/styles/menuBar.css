@@ -1,3 +1,8 @@
+.title_{
+    font-family: var(--prototype);
+    color: var(--secundary-text-color);
+}
+
 .items{
     margin: 0;
     color: var(--base-color);
@@ -12,14 +17,14 @@
     color: var(--primary-color);
 }
 
-nav {
+/*nav {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
     padding: 0.75rem 1rem;
-}
+}*/
 
 .logo {
     color: var(--primary-color);
@@ -33,10 +38,11 @@ nav {
     display: inline-flex;
     align-items: center;
     text-decoration: none;
+
 }
 
 .ico {
-    width: 48px;
+    width: 70px;
     max-width: 100%;
     margin-right: 0;
 }

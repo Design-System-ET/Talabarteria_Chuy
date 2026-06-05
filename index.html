@@ -40,13 +40,16 @@
 
 <body>
 
-    <header class="container-fluid">
+    <header id="header" class="container-fluid">
 
         <nav class="container-fluid" aria-label="Menú principal">
+
             <div class="logo">
                 <a href="./" aria-label="Ir a la página de inicio">
                     <img src="/src/assets/t_chuy.png" alt="Logo Talabarteria Chuy" class="ico">
                 </a>
+
+                <h2 class="title_">Talabarteria Chuy</h2>
             </div>
 
             <!-- menú hamburguesa cuando se ejecuta en pantalla chica -->
@@ -54,7 +57,7 @@
             <label for="menu-toggle" class="menu-icon" aria-hidden="true">&#9776;</label>
 
             <ul class="menu">
-                <li class="items"><a href="./">Inicio</a></li>
+                <li class="items"><a href="#header">Inicio</a></li>
                 <li class="items"><a href="pages/store.html">Tienda</a></li>
                 <li class="items"><a href="#about">Nosotros</a></li>
                 <li class="items"><a href="pages/contacto.html">Contacto</a></li>
@@ -62,7 +65,19 @@
         </nav>
 
 
-        <div class="display-1  fw-bold text-uppercase text-center titulo_">Talabarteria Chuy</div>
+        <div class="container">
+            <div class="row">
+                <div class="col-10 display-5 fw-bold text-uppercase text-left titulo_">
+                    <h5>QUE OFRECEMOS</h5>
+                    <h2 class="col-10 col-md-8">CONTAMOS CON DIVERSOS SERVICIOS</h2>
+                </div>
+
+                <div class="col-10 col-md-8 subtitulo_ text-justify">
+                    <h6>En Talabartería Chuy ponemos a su disposición una amplia experiencia en trabajos de talabartería y artículos de cuero. Nos especializamos en la fabricación, reparación y mantenimiento de productos destinados tanto al trabajo de campo como al uso tradicional, combinando artesanía, calidad y atención personalizada.</h6>
+                    <h6>Nuestro objetivo es brindar soluciones duraderas y adaptadas a las necesidades de cada cliente, preservando el valor de los oficios tradicionales y ofreciendo productos confeccionados con dedicación y materiales seleccionados.</h6>
+                </div>
+            </div>
+        </div>
 
     </header>
 
