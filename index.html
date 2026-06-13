@@ -23,6 +23,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
 
+    <!--Bootstrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
     <!-- Mi CSS -->
     <link rel="stylesheet" href="/src/styles/style.css">
 
@@ -81,26 +84,97 @@
 
     </header>
 
-    <main class="container-fluid">
-        <section>
+    <main class="container-fluid col-12">
+        <section id="">
+            <div class="col-10 about">
 
+            </div>
         </section>
 
-        <section>
+        <section id="galeria">
+            <div class="col-10 about">
+                <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="1000">
+                        <img src="/src/assets/A.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="/src/assets/B.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="./src/assets/C.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
 
+            </div>
         </section>
 
-        <section id="about">
-                <div class="container">
+        <section id="about" class="about_back">
+                <div class="col-10 about text-justify">
                     <h2>Sobre Nosotros</h2>
                     <p>En Talabarteria Chuy, nos dedicamos a la creación de productos de cuero de alta calidad. Con años de experiencia en el arte de la talabartería, ofrecemos una amplia gama de artículos que combinan tradición y estilo moderno. Desde cinturones y carteras hasta accesorios personalizados, cada pieza es elaborada con cuidado y atención al detalle para garantizar la satisfacción de nuestros clientes.</p>
+                   
+                    <div class="row align-items-center space_padding">
+                        <div class="col">
+                            <div class="text-center">
+                                <img src="/src/assets/clau.jpg" class="img-fluid img-thumbnail rounded-circle" alt="...">
+                            </div>
+                        </div>
+                        <div class="col">
+                        One of three columns
+                        </div>
+                    </div>
+                   
+                    <div class="mt-4">
+                        <h3>Nuestra Visión</h3>
+                        <p>Ser reconocidos como líderes en la industria de la talabartería, destacándonos por nuestra artesanía excepcional, innovación y compromiso con la satisfacción del cliente, mientras preservamos las tradiciones del oficio.</p>
+                    </div>
+                    <div>
+                        <h3>Nuestra Misión</h3>
+                        <p>Brindar productos de cuero excepcionales que reflejen la artesanía y el compromiso con la calidad, satisfaciendo las necesidades y gustos de nuestros clientes.</p>
+                    </div>
                 </div>                
         </section>
         
     </main>
 
     <footer class="container-fluid">
-        <p>© 2026 Talabarteria Chuy. Todos los derechos reservados.</p>
+         <div class="container-fluid d-flex justify-content-around align-items-center flex-wrap gap-4">
+
+            <div class="conte">
+                <p class="txt_footer">Contacto</p>
+                
+                <div class="d-flex gap-3">
+                    <a href="#"><i class="bi bi-whatsapp fs-4"></i></a>
+                    <a href="#"><i class="bi bi-envelope fs-4"></i></a>
+                </div>
+
+            </div>
+
+            <div class="conte">
+                <p class="txt_footer">Social</p>
+
+                <div class="d-flex gap-3">
+                    <a href="#"><i class="bi bi-facebook fs-4"></i></a>
+                    <a href="#"><i class="bi bi-instagram fs-4"></i></a>
+                    <a href="#"><i class="bi bi-linkedin fs-4"></i></a>
+                </div>
+            </div>
+
+            <div class="conte">
+                <p class="txt_footer">Design by</p>
+                <div class="ico_content">
+                    <img src="/src/assets/logo_50x50.png" alt="" class="ico_by">
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center align-items-center" >
+                <p>© 2026 Talabarteria Chuy by <a href="">Design System</a>. Todos los derechos reservados.</p>
+        </div>
+        
     </footer>
 
 

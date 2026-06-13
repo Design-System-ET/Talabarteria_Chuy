@@ -146,7 +146,7 @@
         display: none; /* Escondemos el menú por defecto */
         flex-direction: column;
         width: calc(100% - 40px);
-        background-color: var(--actionBar-color);
+        background-color: var(--menu-color);
         position: absolute; /* Para que se superponga */
         top: 70px; /* Ajustar según el alto del nav */
         right: 20px;
