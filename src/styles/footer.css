@@ -14,7 +14,7 @@
 }
 
 .txt_footer{
-    color: var(--blanco);
+    color: var(--text-color);
     font-size: 20px;
     text-align: center;
 }
@@ -32,4 +32,9 @@
  
 
     /*border: 1px solid rgba(255, 252, 252, 1);*/
+}
+
+.footer_aling{
+    text-align: center;
+    color: var(--text-color);
 }
