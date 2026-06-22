@@ -4,11 +4,12 @@
     padding: 0;
 }
 
-body, html{
-    height: 100%;
+body{
+    min-height: 100vh;
 }
 
-html{
+html,
+body{
     scroll-behavior: smooth;
 }
 

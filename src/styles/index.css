@@ -49,3 +49,10 @@
     }
 }
 
+.borde{
+    border: solid 1px var(--border-color);
+}
+
+.padding_bootom{
+    padding-bottom: 5%;
+}
