@@ -1,7 +1,7 @@
 {
-  "name": "Mi Sitio Web",
-  "short_name": "SitioWeb",
-  "description": "Página web moderna con soporte para todos los dispositivos y PWA.",
+  "name": "Talabarteria Chuy",
+  "short_name": "Pablo Rivero",
+  "description": "Talabartería artesanal en Chuy, Rocha. Productos de cuero hechos a mano con tradición y calidad desde 1986.",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
