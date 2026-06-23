@@ -67,6 +67,10 @@
     height: auto;
 }
 
+.img_logo{
+    max-width: 130px;
+}
+
 @media (max-width: 768px){
     .titulo_{
         font-size: 70px;
@@ -74,11 +78,11 @@
     }
 
     .padding-top{
-        padding-top: 20%;
+        padding-top: 25%;
     }
 
     .padding-top-contact{
-        padding-top: 20%;
+        padding-top: 25%;
     }
 
     .img_perfil{
