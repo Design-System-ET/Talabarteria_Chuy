@@ -29,12 +29,14 @@
 
     padding-top: 5%;
 
- 
-
     /*border: 1px solid rgba(255, 252, 252, 1);*/
 }
 
 .footer_aling{
     text-align: center;
     color: var(--text-color);
+}
+
+.img_logo{
+    max-width: 130px;
 }
