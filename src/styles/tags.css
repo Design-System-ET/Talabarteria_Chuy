@@ -99,3 +99,10 @@ hr{
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+@media (max-width: 767.98px) {
+    section#galeria {
+        min-height: auto;
+        height: auto;
+    }
+}

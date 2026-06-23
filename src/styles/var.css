@@ -70,4 +70,11 @@
     --old_town: 'Old Town Regular', sans-serif;
     --bleeding_cowboys: 'Bleeding Cowboys', sans-serif;
     --rio_oro_bold: 'Rio Oro Bold', sans-serif;
+
+
+
+    /*Sobre-escribo variables Bootstrap*/
+    .img-thumbnail {
+        border-color: var(--dark-primary-color);
+    }
 }
