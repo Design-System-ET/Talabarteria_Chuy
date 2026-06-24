@@ -1,22 +1,22 @@
 {
   "name": "Talabarteria Chuy",
-  "short_name": "Pablo Rivero",
+  "short_name": "Talabarteria Chuy",
   "description": "Talabartería artesanal en Chuy, Rocha. Productos de cuero hechos a mano con tradición y calidad desde 1986.",
   "icons": [
     {
-      "src": "/src/assets/web-app-manifest-192x192.png",
+      "src": "../web-app-manifest-192x192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/src/assets/web-app-manifest-512x512.png",
+      "src": "../web-app-manifest-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
     }
   ],
-  "start_url": "/",
+  "start_url": "/Talabarteria_Chuy/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#1a73e8"

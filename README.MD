@@ -53,6 +53,15 @@ Plantilla base para iniciar proyectos web rápidamente con las herramientas más
 └── .gitignore                  # Exclusiones de Git
 ```
 
+### 📁 Dónde colocar imágenes y archivos
+
+| Carpeta | Cuándo usarla | Ejemplos |
+|---|---|---|
+| `src/assets/` | Archivos que **importás** en JS/TS/CSS | `import logo from './assets/logo.png'`, `background: url('./assets/fondo.png')` |
+| `public/` | Archivos referenciados por **ruta directa** desde el HTML o archivos estáticos | `<img src="/icono.png">`, favicons, manifest icons, `robots.txt` |
+
+**Regla práctica:** si lo vinculás desde un `<link>`, un `<img src="...">` directo en HTML, o desde el `site.webmanifest` → va en `public/`. Si lo importás con `import` o `url()` desde JS/CSS → va en `src/assets/`.
+
 ## 🛠️ Instalación y uso
 
 ### 1. Clonar o copiar la plantilla
