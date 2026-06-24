@@ -27,6 +27,13 @@
     /*height: 100vh;*/
 }
 
+.padding-top-galeria{
+    /*border: 2px solid red;*/
+    padding-top: 3%;
+    /*height: 100vh;*/
+}
+
+
 .about_back{
     background-image: url(/src/assets/back_about.png);
     background-size: cover;
@@ -75,11 +82,11 @@
     }
 
     .padding-top{
-        padding-top: 25%;
+        padding-top: 10%;
     }
 
     .padding-top-contact{
-        padding-top: 25%;
+        padding-top: 10%;
     }
 
     .img_perfil{
