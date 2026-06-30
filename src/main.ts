@@ -1,6 +1,8 @@
 import axios from "axios";
 import { Persona } from "./entities/Persona";
 import "./scripts/contacto";
+import "./scripts/index"
+import "./scripts/tienda";
 
 declare const Swal: any;
 
