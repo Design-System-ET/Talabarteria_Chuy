@@ -3,8 +3,8 @@ import Swal from "sweetalert2";
 
 const emailjsConfig = {
   userId: '0VyDd9Vl4u9VIEXY-',
-  serviceId: 'service_8lq7rwn',
-  templateId: 'template_c6mwx5t',
+  serviceId: 'service_okcn21g',
+  templateId: 'template_mky0a9o',
 };
 
 document.addEventListener('DOMContentLoaded', function () {

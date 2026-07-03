@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+#archivos
+datos_cuenta.txt
+Acceso_Direct_App.md

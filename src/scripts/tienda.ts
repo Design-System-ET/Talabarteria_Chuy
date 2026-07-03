@@ -1,4 +1,5 @@
 import Swal from "sweetalert2";
+import { Producto } from '../interfaces/Producto';
 
 const cel = 'https://wa.link/c17sfd';
 
