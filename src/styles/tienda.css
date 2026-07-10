@@ -1,3 +1,22 @@
 .img_tienda{
     cursor: pointer;
 }
+
+.img-producto{
+    height: 250px;
+}
+
+.card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.card-text.expanded {
+    -webkit-line-clamp: unset;
+}
+
+.card:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

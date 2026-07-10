@@ -24,8 +24,7 @@ fetch('/Talabarteria_Chuy/productos.json')
 
         productos.forEach((p) => {
             contenedor.innerHTML += `
-                <div class="col mb-4">
-                    <div class="card" style="width: 18rem;">
+                <div class="card" style="width: 18rem;">
                     <img src="${p.imagen}" class="card-img-top img-producto img_tienda" alt="${p.titulo}" data-img="${p.imagen}">
                     <div class="card-body">
                         <h5 class="card-title" style="font-weight: 900;">${p.titulo}</h5>
@@ -37,9 +36,8 @@ fetch('/Talabarteria_Chuy/productos.json')
                     </ul>
                     <div class="card-body">
                         <a href="${cel}" target="_blank" class="btn btn-primary">Comprar</a>
-                        <!-- <a href="${p.texto2}" class="card-link text-center">${p.texto2}</a> -->
+                        <a href="javascript:void(0)" class="card-link text-center link-toggle-desc" data-texto2="${p.texto2}">Ver mas</a>
                     </div>
-                </div>
                 </div>
             `;
         });
@@ -73,6 +71,16 @@ fetch('/Talabarteria_Chuy/productos.json')
                     imageUrl: img || '',
                     confirmButtonText: 'Cerrar'
                 });
+            } else if (target.classList.contains('link-toggle-desc')) {
+                e.preventDefault();
+                const card = target.closest('.card');
+                const desc = card?.querySelector('.card-text');
+                if (desc) {
+                    desc.classList.toggle('expanded');
+                    target.textContent = desc.classList.contains('expanded')
+                        ? 'Ocultar'
+                        : 'Ver mas';
+                }
             }
         });
 
