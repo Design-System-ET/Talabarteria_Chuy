@@ -2,7 +2,7 @@
     {
         "titulo": "Materas de Cuero, varios modelos",
         "descripcion": "Matera artesanal de cuero legítimo con compartimentos para mate, termo y accesorios. Ideal para llevar tu set matero al campo o paseo. Disponible en varios colores y tamaños con costuras reforzadas y manija resistente. Hecha mano.",
-        "imagen": "/Talabarteria_Chuy/productos/materas_1.jpg",
+        "imagen": "/productos/materas_1.jpg",
         "item1": "Cuero legítimo",
         "item2": "Hecho a mano",
         "item3": "$1500",
@@ -12,7 +12,7 @@
     {
         "titulo": "Silleta de carro o para arado",
         "descripcion": "Silleta de cuero vacuno para carro o arado, hecha artesanalmente para trabajo de tiro. Resistente y durable para exigencias del trabajo rural. Incluye herrajes reforzados y costuras de primera calidad en cuero legítimo hecho mano.",
-        "imagen": "/Talabarteria_Chuy/productos/silleta_carro.jpg",
+        "imagen": "/productos/silleta_carro.jpg",
         "item1": "Cuero legítimo",
         "item2": "Hecho a mano",
         "item3": "$4000",
@@ -22,7 +22,7 @@
     {
         "titulo": "Encimera, cincho, barriguera",
         "descripcion": "Compuesto por encimera, cincho y barriguera en cuero vacuno legítimo. Pieza fundamental para montura tradicional con costuras reforzadas. Ideal para trabajo de campo, doma y cabalgatas con resistencia y durabilidad.",
-        "imagen": "/Talabarteria_Chuy/productos/encimera_cincho.jpg",
+        "imagen": "/productos/encimera_cincho.jpg",
         "item1": "Cuero legítimo",
         "item2": "Hecho a mano",
         "item3": "$3500",
@@ -32,7 +32,7 @@
     {
         "titulo": "Cinchon",
         "descripcion": "Cinchón de cuero crudo con argollas metálicas para asegurar la montura del caballo. Hecho artesanalmente en un cuero resistente y costura de tiento. Proporciona sujeción firme y segura durante tareas de campo y cabalgatas diarias.",
-        "imagen": "/Talabarteria_Chuy/productos/cinchon.jpg",
+        "imagen": "/productos/cinchon.jpg",
         "item1": "Cuero legítimo",
         "item2": "Hecho a mano",
         "item3": "$900",
@@ -42,7 +42,7 @@
     {
         "titulo": "Guarda monte y estrivera tejana",
         "descripcion": "Guarda monte y estrivera tejana en cuero vacuno. Protege la pierna del jinete del sudor y fricción, mientras la estrivera brinda soporte firme. Diseño criollo con costuras reforzadas para uso diario en campo y cabalgatas ecuestre.",
-        "imagen": "/Talabarteria_Chuy/productos/guarda_monte.jpg",
+        "imagen": "/productos/guarda_monte.jpg",
         "item1": "Cuero legítimo",
         "item2": "Hecho a mano",
         "item3": "$5199",
@@ -52,7 +52,7 @@
     {
         "titulo": "Encimera de suela bordada",
         "descripcion": "Encimera de suela bordada con diseños artesanales en cuero vacuno de primera calidad. Combina resistencia de la suela con trabajo decorativo bordado a mano, ideal para desfiles y jineteadas. Argollas reforzadas.",
-        "imagen": "/Talabarteria_Chuy/productos/encimera_suela.jpg",
+        "imagen": "/productos/encimera_suela.jpg",
         "item1": "Cuero legítimo",
         "item2": "Hecho a mano",
         "item3": "$900",
@@ -62,7 +62,7 @@
     {
         "titulo": "Barriguera algodon, 2 funciones",
         "descripcion": "Barriguera de algodón doble función para fijar la cincha al recado o montura. Diseño versátil como estándar o ajuste adicional brindando seguridad al caballo. Costura reforzada para trabajo rural intensivo y uso de campo a diario.",
-        "imagen": "/Talabarteria_Chuy/productos/barriguera_algodon.jpg",
+        "imagen": "/productos/barriguera_algodon.jpg",
         "item1": "Cuero legítimo",
         "item2": "Hecho a mano",
         "item3": "$1500",
@@ -72,7 +72,7 @@
     {
         "titulo": "Encimera de cuero crudo/ cinchon barriguera",
         "descripcion": "Juego de encimera de cuero crudo con cinchón y barriguera, conjunto completo para apero de caballo. Encimera premium con máxima durabilidad y argollas reforzadas. Cinchón y barriguera garantizan sujeción firme para trabajo pesado.",
-        "imagen": "/Talabarteria_Chuy/productos/encimera_cincho.jpg",
+        "imagen": "/productos/encimera_cincho.jpg",
         "item1": "Cuero legítimo",
         "item2": "Hecho a mano",
         "item3": "$4500",
@@ -82,7 +82,7 @@
     {
         "titulo": "Estribo salva vidas y estribera",
         "descripcion": "Estribo de cuero vacuno con diseño ergonómico que brinda seguridad al jinete. Incluye estribera a juego que protege la pierna del roce. Hecho a mano con costuras reforzadas y materiales de primera calidad con durabilidad y segura.",
-        "imagen": "/Talabarteria_Chuy/productos/estribo_estribera.jpg",
+        "imagen": "/productos/estribo_estribera.jpg",
         "item1": "Cuero legítimo",
         "item2": "Hecho a mano",
         "item3": "$4200",
@@ -92,7 +92,7 @@
     {
         "titulo": "Estribera/estribo de hierro",
         "descripcion": "Estribera y estribo de hierro forjado para uso en actividades ecuestres y campo. Diseño robusto y duradero que garantiza seguridad del jinete durante la monta y cabalgatas. Fabricado artesanalmente con materiales resistentes rudo.",
-        "imagen": "/Talabarteria_Chuy/productos/estribo_hierro.jpg",
+        "imagen": "/productos/estribo_hierro.jpg",
         "item1": "Cuero legítimo",
         "item2": "Hecho a mano",
         "item3": "$2500",
@@ -102,7 +102,7 @@
     {
         "titulo": "Encimera bordada",
         "descripcion": "Encimera de cuero crudo bordada a mano con detalles ornamentales y acabados de alta calidad. Ideal para montura tradicional, desfiles y jineteadas criollas con elegancia. Costuras reforzadas y argollas de acero para máxima seguro.",
-        "imagen": "/Talabarteria_Chuy/productos/encimera_bordada.jpg",
+        "imagen": "/productos/encimera_bordada.jpg",
         "item1": "Cuero legítimo",
         "item2": "Hecho a mano",
         "item3": "$1400",
@@ -112,7 +112,7 @@
     {
         "titulo": "Encimera y cinchon bordado",
         "descripcion": "Juego de encimera de cuero crudo con cinchón y barriguera, conjunto completo para apero de caballo. Encimera premium con máxima durabilidad y argollas reforzadas. Cinchón y barriguera garantizan sujeción firme para trabajo pesado.",
-        "imagen": "/Talabarteria_Chuy/productos/encimera_sinchon.jpg",
+        "imagen": "/productos/encimera_sinchon.jpg",
         "item1": "Cuero legítimo",
         "item2": "Hecho a mano",
         "item3": "$2700",
@@ -122,7 +122,7 @@
     {
         "titulo": "Arreo de carro",
         "descripcion": "Arreo completo de carro en cuero vacuno legítimo para trabajo de tiro pesado en el campo. Incluye cinchón, barriguera y argollas de acero reforzadas. Costuras de tiento y herrajes de primera calidad garantizan durabilidad firmeza.",
-        "imagen": "/Talabarteria_Chuy/productos/arreo_carro.jpg",
+        "imagen": "/productos/arreo_carro.jpg",
         "item1": "Cuero legítimo",
         "item2": "Hecho a mano",
         "item3": "$18999",
@@ -132,7 +132,7 @@
     {
         "titulo": "Cabezada para cuadra",
         "descripcion": "Cabezada de cuero vacuno para cuadra con osiquera, cogotera y riendas de cuero incluidas. Diseño ergonómico y cómodo para el caballo. Hecha a mano con cuero legítimo y herrajes de acero con costura de tiento durable y resistencia.",
-        "imagen": "/Talabarteria_Chuy/productos/cabezada_cuadra.jpg",
+        "imagen": "/productos/cabezada_cuadra.jpg",
         "item1": "Cuero legítimo",
         "item2": "Hecho a mano",
         "item3": "$2200",
@@ -142,7 +142,7 @@
     {
         "titulo": "Encimera y cinchon bordado",
         "descripcion": "Juego de encimera de cuero crudo con cinchón y barriguera, conjunto completo para apero de caballo. Encimera premium con máxima durabilidad y argollas reforzadas. Cinchón y barriguera garantizan sujeción firme para trabajo pesado.",
-        "imagen": "/Talabarteria_Chuy/productos/cinchon_bordado.jpg",
+        "imagen": "/productos/cinchon_bordado.jpg",
         "item1": "Cuero legítimo",
         "item2": "Hecho a mano",
         "item3": "$1300",

@@ -9,7 +9,7 @@ import { Producto } from '../interfaces/Producto';
 
 const cel = 'https://wa.link/c17sfd';
 
-fetch('/Talabarteria_Chuy/productos.json')
+fetch('/productos.json')
     .then(async (response) => {
         if (!response.ok) {
             throw new Error('Error HTTP: ' + response.status);

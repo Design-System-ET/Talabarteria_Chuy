@@ -198,6 +198,28 @@ npm run deploy
 
 Esto construye el proyecto y luego publica la carpeta `dist/` en la rama `gh-pages`.
 
+## 🧩 Funcionalidades implementadas
+
+### Descripción truncada con toggle
+Las tarjetas de producto muestran la descripción truncada a 3 líneas (`line-clamp`) para mantener altura uniforme. Al hacer clic en "Ver descripción completa" se expande la descripción de esa tarjeta sin afectar a las demás.
+
+- `src/styles/tienda.css` — clases `.card-text` (truncado) y `.expanded` (completo)
+- `src/scripts/tienda.ts` — evento `click` con toggle por card vía `closest('.card')`
+
+### Dominio personalizado — GitHub Pages
+El proyecto se migró de `https://<usuario>.github.io/Talabarteria_Chuy/` a `https://talabarteria-chuy.com/`.
+
+| Archivo | Cambio |
+|---|---|
+| `vite.config.js` | `base: "/"` |
+| `src/scripts/tienda.ts` | `fetch('/productos.json')` |
+| `public/productos.json` | Rutas de imagen sin prefijo `/Talabarteria_Chuy` |
+| `site.webmanifest` | `"start_url": "/"` |
+| `public/CNAME` | Contiene el dominio personalizado |
+
+### Tarjetas centradas
+El contenedor `#productos` usa `d-flex justify-content-center align-items-start flex-wrap` para centrar las cards horizontalmente sin que se estiren al mismo alto.
+
 ## 📋 Requisitos
 
 - [Node.js](https://nodejs.org/) 18 o superior
