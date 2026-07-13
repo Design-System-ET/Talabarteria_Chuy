@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
             title: 'Fabricación a medida',
             html: `
                 <div style="text-align: justify;">
-                    Cada pieza se fabrica de forma totalmente artesanal y a medida, adaptándose a las necesidades, gustos y preferencias de cada cliente. Trabajamos con cueros seleccionados y técnicas tradicionales para crear artículos únicos, resistentes y funcionales, cuidando cada detalle desde el diseño hasta la terminación final. Ya sea para trabajo, campo o uso personal, cada producto se confecciona con dedicación, garantizando calidad, comodidad y una identidad propia en cada creación.
+                    Cada pieza se fabrica de forma totalmente artesanal y a medida, adaptándose a las necesidades, gustos y preferencias de cada cliente. Trabajamos con cueros seleccionados y técnicas tradicionales para crear artículos únicos, resistentes y funcionales, cuidando cada detalle desde el diseño hasta la terminación final. Ya sea para trabajo, campo o uso deportivo, cada producto se confecciona con dedicación, garantizando calidad, comodidad y una identidad propia en cada creación.
                 </div>
             `,
             confirmButtonText: 'Cerrar'
